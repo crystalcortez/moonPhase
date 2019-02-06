@@ -11,6 +11,8 @@ function draw() {
 
 	//noFill();
 	//stroke(255);
+	push();
 	texture(img);
 	sphere(windowWidth/10);
+	pop();
 }
