@@ -1,10 +1,8 @@
 let img;
-function preload() {
-	img = loadImage('assets/moonphoto.png');
-}
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
+	img = loadImage('assets/moonphoto.png');
 }
 
 function draw() {
