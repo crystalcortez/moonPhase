@@ -2,7 +2,7 @@ let img;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
-	img = loadImage('assets/moonphoto.png');
+	img = loadImage('assets/fullmoon.jpg');
 	background(0);
 }
 
