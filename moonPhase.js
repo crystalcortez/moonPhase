@@ -1,12 +1,13 @@
-let img;
+//let img;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
-	img = loadImage('assets/moonphoto.png');
+	//img = loadImage('assets/moonphoto.png');
+	background(0);
 }
 
 function draw() {
-	background(0);
+	
 
 	noFill();
 	//stroke(255);
