@@ -9,7 +9,7 @@ function draw() {
 	background(0);
 
 	noFill();
-	stroke(255);
+	//stroke(255);
 	texture(img);
 	sphere(windowWidth/10);
 }
