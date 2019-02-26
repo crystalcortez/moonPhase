@@ -45,3 +45,4 @@ if (x >= 16){
 }
 	fill(0);
 	ellipse(phase, windowHeight/2, size, size);
+}
