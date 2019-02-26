@@ -6,6 +6,7 @@ var shade = 255;
  
 function setup() {
 	createCanvas(windowWidth, windowHeight);
+	background(0);
 }
 
 function draw() {
@@ -24,7 +25,7 @@ function draw() {
 	if (shade <= 0){
 		shade = 255;
 	}
-	
+
 
 	moon (x, 200, shade);
 	console.log(shade);
@@ -33,8 +34,8 @@ function draw() {
 
 function moon (x, size, shade){
 	var size = random(100, 300);
-
-	fill(shade, shade, 100);
+	fill(shade, shade, 200);
+	noStroke();
 	ellipse(windowWidth/2, windowHeight/2, size, size);
 
 	if (x <= 15){
@@ -44,5 +45,6 @@ if (x >= 16){
 	phase = map(x, 16, 30, windowWidth*0.75, windowWidth*0.50);
 }
 	fill(0);
+	noStroke();
 	ellipse(phase, windowHeight/2, size, size);
 }
